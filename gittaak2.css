@@ -3,23 +3,33 @@ img{
     padding-top: 30px;
     height: 60px;
     width: 30%;
+    margin-left:10px ;
 }
 
-nav{
+nav{ margin-top: -40px;
 
 }
 ul{list-style: none;
 text-align: center;
     padding: 0;
-    margin: -50px;
+    margin: -36px;
+    margin-left: 5px;
 }
 
 li{
     display: inline-block;
     text-align: center;
     padding-left: max(50px, 25px);
-    padding-inline: 50px;
+    padding-inline: 12px;
     padding-top: 10px;
     font-size: 14px;
     color:white;
+}
+button {
+    background-color: firebrick;
+    border-radius: 50px;
+    float: center;
+    margin-top: 50px;
+    padding-top:  10px;
+    margin-left: 655px;
 }
