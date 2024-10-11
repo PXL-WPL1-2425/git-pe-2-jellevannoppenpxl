@@ -6,14 +6,17 @@ img{
     margin-left:10px ;
 }
 
-nav{ margin-top: -40px;
+nav{ margin-top: -11px;
+    position: fixed;
+    z-index: 2;
+
 
 }
 ul{list-style: none;
 text-align: center;
     padding: 0;
     margin: -36px;
-    margin-left: 5px;
+    margin-left: 100px;
 }
 
 li{
@@ -28,8 +31,31 @@ li{
 button {
     background-color: firebrick;
     border-radius: 50px;
-    float: center;
-    margin-top: 50px;
+    float: right;
+    margin-top: -40px;
     padding-top:  10px;
-    margin-left: 655px;
+    margin-left: 1000px;
 }
+
+header { position: relative;
+    height: 100vh;
+    width: 100%;
+    z-index: 1;}
+
+body{
+  position: fixed;
+    margin: auto;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
